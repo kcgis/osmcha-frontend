@@ -4,7 +4,7 @@ import { API_URL } from './';
 export const PAGE_SIZE = process.env.REACT_APP_PAGE_SIZE || 25;
 export const overpassBase =
   process.env.REACT_APP_OVERPASS_BASE ||
-  'https://overpass-api.de/api/interpreter';
+  'https://overpass-api.maramech.kendallcountyil.gov/api/interpreter';
 export const statusUrl =
   'https://raw.githubusercontent.com/osmcha/osmcha-frontend/status/status.json';
 export const enableRealChangesets = !process.env
@@ -14,12 +14,12 @@ export const osmchaSocialTokenUrl = `${API_URL}/social-auth/`;
 export const osmchaUrl = API_URL.replace('api/v1', '');
 
 export const osmUrl =
-  process.env.REACT_APP_OSM_URL || 'https://www.openstreetmap.org';
-export const isOfficialOSM = osmUrl === 'https://www.openstreetmap.org';
+  process.env.REACT_APP_OSM_URL || 'https://https://www.maramech.kendallcountyil.gov';
+export const isOfficialOSM = osmUrl === 'https://https://www.maramech.kendallcountyil.gov';
 export const apiOSM =
-  process.env.REACT_APP_OSM_API || 'https://api.openstreetmap.org/api/0.6';
+  process.env.REACT_APP_OSM_API || 'https://www.maramech.kendallcountyil.gov/api/0.6';
 export const adiffServiceUrl =
-  process.env.REACT_APP_ADIFF_SERVICE_URL || 'https://adiffs.osmcha.org';
+  process.env.REACT_APP_ADIFF_SERVICE_URL || 'https://maramech-replication.s3.amazonaws.com/maramech-augmented-diffs';
 
 export const whosThat =
   'https://whosthat.osmz.ru/whosthat.php?action=names&id=';
