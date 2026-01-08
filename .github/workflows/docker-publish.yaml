@@ -5,7 +5,7 @@ on:
     branches: [ "main" ]
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: kcgis/osmcha-django
+  IMAGE_NAME: kcgis/osmcha-frontend
 
 jobs:
   build:
