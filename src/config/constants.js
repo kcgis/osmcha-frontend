@@ -29,7 +29,7 @@ export const nominatimUrl =
   'https://nominatim.openstreetmap.org/search.php';
 
 // set a default from date x days before today
-export const DEFAULT_FROM_DATE = process.env.REACT_APP_DEFAULT_FROM_DATE || 2;
+export const DEFAULT_FROM_DATE = process.env.REACT_APP_DEFAULT_FROM_DATE || 30;
 // exclude changesets newer than x minutes. It's needed because of the difference
 // between the time a changeset is processed by OSMCha and the time its map
 // visualization is available
